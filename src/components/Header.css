@@ -1,5 +1,5 @@
 .tab:hover {
-    background-color: #816597;
+    background-color: #0d6c778c;
 }
 
 .navtext:hover {
@@ -62,14 +62,14 @@ img {
 }
 
 .btn-roxo {
-  background-color: #4f1479;
+  background-color: #124E63;
   color: #ffffff;
-  border-color: #4f1479;
+  border-color: #124E63;
 }
 
 .btn-roxo:hover {
-  background-color: #7d42a8; /* roxo mais claro */
-  border-color: #7d42a8;
+  background-color: #0D6C77; /* roxo mais claro */
+  border-color: #0D6C77;
   color: #ffffff;
 }
 
@@ -81,5 +81,5 @@ img {
 .info {
     font-family: system-ui;
     font-weight: bold;
-    color: #4f1479;
+    color: #124E63;
 }

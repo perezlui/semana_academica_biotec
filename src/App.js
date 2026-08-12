@@ -7,7 +7,7 @@ import Submeta from "./components/Submeta";
 import Ensino from "./components/Papers/Ensino";
 import PesquisaGrad from "./components/Papers/PesquisaGrad";
 import PesquisaPos from "./components/Papers/PesquisaPos";
-import Anais from "./components/Anais";
+import Programacao from "./components/Programacao";
 import Footer from "./components/Footer";
 import Certificados from "./components/Certificados";
 import FAQ from "./components/FAQ";
@@ -24,7 +24,7 @@ function App() {
           <Route path="/ensino-extensao" element={<Ensino />} />
           <Route path="/pesquisa-graduacao" element={<PesquisaGrad />} />
           <Route path="/pesquisa-pos-graduacao" element={<PesquisaPos />} />
-          <Route path="/anais" element={<Anais />} />
+          <Route path="/programacao" element={<Programacao />} />
           <Route path="/certificados" element={<Certificados />} />
           <Route path="/faq" element={<FAQ />} />
         </Routes>

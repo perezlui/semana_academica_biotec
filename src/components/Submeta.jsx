@@ -9,10 +9,10 @@ return (
     <div className='container'>
         <p className='display-6 mt-4'><strong>Submeta seu trabalho</strong></p>
         <p>
-            A submissão de trabalhos está aberta para alunos da <strong>graduação</strong> e <strong>pós-graduação</strong> nas modalidades <strong>Pesquisa</strong> e <strong>Ensino/Extensão</strong>
+            Poderão submeter trabalhos nas modalidades <strong>Pesquisa</strong> e <strong>Ensino/Extensão</strong> alunos de <strong>graduação</strong> ou <strong>pós-graduação.</strong>
         </p>
         <p>
-            <strong>Mas atenção!</strong> Para submeter seu trabalho, você deve estar inscrito como ouvinte, se ainda não se inscreveu <a href="/inscrições">clique aqui</a> para se inscrever.
+            <strong>Mas atenção!</strong> Para submeter seu trabalho, você deve estar inscrito como ouvinte. Se ainda não está, <a href="/inscrições">clique aqui</a>.
         </p>    
         <div>
             <button className='btn btn-outline-dark mb-4' onClick={() => navigate("/pesquisa-graduacao")}>

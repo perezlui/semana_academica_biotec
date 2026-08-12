@@ -10,7 +10,7 @@ const Footer = () => {
     background: "#f8f9fa",
     textAlign: "center",
     zIndex: 1000,
-    backgroundColor: "#4f1479"
+    backgroundColor: "#0D6C77"
   }}>
       <p className='mb-0'>
         &copy; {new Date().getFullYear()} Semana Acadêmica de Biotecnologia da UFPel. Todos os direitos reservados.

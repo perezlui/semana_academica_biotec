@@ -4,7 +4,7 @@ const FAQ = () => {
   return (
     <div className='container'>
       <p className='fs-2 mt-4'><strong>Perguntas Frequentes</strong></p>
-      <ol className='list list-group-numbered'>
+      {/* <ol className='list list-group-numbered'>
         <li className='list-group-item fs-4 mb-2'>Como chegar ao Auditório Eliseu Maciel?</li>
         <p className='fs-5 ms-4'>O auditório está localizado na Faculdade de Agronomia da UFPel, no campus Capão do Leão.</p>
       </ol>
@@ -19,7 +19,7 @@ const FAQ = () => {
             referrerPolicy="no-referrer-when-downgrade">
           </iframe>
         </div>
-      </div>
+      </div> */}
 
     </div>
   )

@@ -9,7 +9,8 @@ const Navbar = () => {
 
     return (
         <div className='header-text'>
-            <img src="/media/header.svg" alt="Semana Acadêmica" style={{ width: '100%', height: 'auto' }} />
+            <img src="/media/header.png
+            " alt="Semana Acadêmica" style={{ width: '100%', height: 'auto' }} />
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid d-flex flex-column align-items-center">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +63,7 @@ const Navbar = () => {
                                 )}
                             </li>
                             <li className="tab p-2 nav-item">
-                                <a className="navtext nav-link" href="#" onClick={() => navigate("/anais")}>Anais</a>
+                                <a className="navtext nav-link" href="#" onClick={() => navigate("/programacao")}>Programação</a>
                             </li>
                             <li className="tab p-2 nav-item">
                                 <a className="navtext nav-link" href="#" onClick={() => navigate("/certificados")}>Certificados</a>
