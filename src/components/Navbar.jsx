@@ -1,7 +1,9 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Header.css'; // Assuming Header.css contains your existing styles
+
+// Import the image directly so the bundler can resolve the correct path
+import headerImage from '../media/header.png';
 
 const Navbar = () => {
     const navigate = useNavigate();
@@ -9,8 +11,9 @@ const Navbar = () => {
 
     return (
         <div className='header-text'>
-            <img src="/media/header.png
-            " alt="Semana Acadêmica" style={{ width: '100%', height: 'auto' }} />
+            {/* Replace the hardcoded string with the imported variable */}
+            <img src={headerImage} alt="Semana Acadêmica" style={{ width: '100%', height: 'auto' }} />
+            
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid d-flex flex-column align-items-center">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
