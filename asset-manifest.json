@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/semana_academica_biotec/static/css/main.756a28ed.css",
+    "main.js": "/semana_academica_biotec/static/js/main.3efc75ff.js",
+    "index.html": "/semana_academica_biotec/index.html",
+    "main.756a28ed.css.map": "/semana_academica_biotec/static/css/main.756a28ed.css.map",
+    "main.3efc75ff.js.map": "/semana_academica_biotec/static/js/main.3efc75ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.756a28ed.css",
+    "static/js/main.3efc75ff.js"
+  ]
+}
